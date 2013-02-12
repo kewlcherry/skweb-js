@@ -6,7 +6,8 @@
     "browsers": {
       "chrome": [23]
     },
-    "scripts": {
+    "scripts": [
+      "vendor/jstest.js",
       "test/spec_helper.js",
       "lib/songkick.js",
       "lib/snow_plow.js",
@@ -33,8 +34,9 @@
       "test/specs/songkick/component/social_spec.js",
       "test/specs/songkick/component/tickets_spec.js",
       "test/specs/songkick/component/city_selector_spec.js",
-      "test/specs/songkick/component/filter_metro_area_spec.js"
-    }
+      "test/specs/songkick/component/filter_metro_area_spec.js",
+      "test/runner.js"
+    ]
   }
 }
 
