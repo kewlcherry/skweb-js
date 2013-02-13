@@ -4,7 +4,11 @@
 
   "testling": {
     "browsers": {
-      "chrome": [23]
+      "chrome":   [23],
+      "firefox":  [3.6, 17],
+      "iexplore": [8, 9, 10],
+      "opera":    [11.6, 12.0],
+      "safari":   [5.1]
     },
     "scripts": [
       "vendor/jstest.js",
