@@ -88,3 +88,10 @@ JS.ENV.SpecHelper = new JS.Module('SpecHelper', {
   }
 });
 
+JS.Test.Unit.TestCase.include(SpecHelper);
+
+JS.ENV.SK          = {};
+JS.ENV._gat        = {};
+JS.ENV.pageTracker = {_trackPageview: function() {}, _setCustomVar: function() {}};
+JS.ENV.twttr       = {events: {bind: function() {}}};
+
